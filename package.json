@@ -1,0 +1,22 @@
+{
+    "name": "blog-nodejs",
+    "version": "1.0.0",
+    "description": "blog create with Nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tien77/blog-nodejs.git"
+    },
+    "author": "MinhTien",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13"
+    }
+}
