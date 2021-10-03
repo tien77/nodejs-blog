@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
+
 app.get('/blog', (req, res) => {
     var a = 1,
         b = 2;
